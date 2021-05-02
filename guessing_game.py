@@ -5,7 +5,7 @@ import random
 print("Hi there, what\'s your name?")
 name = input("Your name: ")
 
-print ("Hi " + name + ", I\'m thinking of a number between 1 - 6, what is it? (You have six guesses)")
+print ("Hi " + name + ", I\'m thinking of a number between 1 - 10, what is it? (You have six guesses)")
 
 x = random.randint(1,10) # Set random number to guess
 limit = 6 # Set guess limit to six
